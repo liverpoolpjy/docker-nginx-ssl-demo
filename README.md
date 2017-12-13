@@ -2,6 +2,12 @@
 
 docker-nginx-ssl-demo is a demo for deploying https with nginx in docker, using Letsencrypt and self-signed certificate respectively.
 
+## Prerequisite
+
+* a linux machine with 443 and 80 port available from Internet
+* Docker Engine and Docker Compose(version >= 1.6.0)
+* a domain with a A record resolved to your machine's IP
+
 ## Quick Start
 
 ### Using LetsEncrypt
