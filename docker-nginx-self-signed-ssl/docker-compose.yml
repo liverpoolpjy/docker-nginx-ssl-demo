@@ -1,7 +1,11 @@
-nginx:
-    build: ./nginx
-    ports:
-      -  "443:443"
-    volumes:
-      -  ./nginx/certificate:/etc/certificate
-    container_name: nginx_https
+version: '2'
+
+services:
+    nginx:
+        build: ./nginx
+        image: nginx_https
+        ports:
+          -  "443:443"
+        volumes:
+          -  ./nginx/certificate:/etc/certificate
+        container_name: nginx_https
