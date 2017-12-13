@@ -12,7 +12,7 @@ docker-nginx-ssl-demo is a demo for deploying https with nginx in docker, using 
 
 ### Using LetsEncrypt
 
-1. get certificate from letsencrypy using cerbot
+1. get certificate from letsencrypt using cerbot
 
   ```
   cd docker-nginx-letsencrypt-ssl
